@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    background: #d0d3d8
+}
+header{
+    background-color: #26a5cc;
+}
+.title{
+    margin-top: 0;
+    padding-top: 8px;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;   
+    padding: 10px 5px;
+    list-style: none;
+}
+.menu-item{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 8px;
+}
+.menu-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+.menu-link:hover{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+
