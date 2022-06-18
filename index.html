@@ -1,22 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julio Hurtado</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <header >
-        <h1 class="title">Primer pagina en github pages</h1>
-        <nav>
-            <ul class="menu">
-                <li class="menu-item">  <a href="/" class="menu-link" title="home"> Home</a></li>
-                <Li class="menu-item"><a href="https://github.com/Julio-Hurtado/" class="menu-link" title="Github.com"> GitHub</a></Li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/font/flaticon.css" />
+  </head>
+  <body>
+    <header>
+      <div class="icons__container">
+        <ul class="icons">
+          <li>
+            <a href="#"><span class="flaticon-001-facebook icon"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="flaticon-002-twitter icon"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="flaticon-011-instagram icon"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="flaticon-008-youtube icon"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="flaticon-010-linkedin icon"></span></a>
+          </li>
+        </ul>
+      </div>
+      <h1 class="title">Julio Ernesto Hurtado Calero</h1>
+      <nav>
+        <ul class="nav-container">
+          <li class="nav__logo">
+            <a href="/" class="logo__link"
+              ><img src="./assets/img/Logo-negro.png" alt="Logo de mi blog"
+            /></a>
+          </li>
+          <li class="nav__profile">
+            <a href="https://github.com/Julio-Hurtado/" class="profile__link"
+              >About me</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-    
-</body>
+    <main>
+      <section class="profile__container">
+        <div class="grid__container">
+          <div class="profile__image">
+            <img src="./assets/img/Ernesto01.jpg" alt="perfil de usuario" />
+          </div>
+          <div>
+            <h2>Dev support</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+              reprehenderit ab exercitationem non natus in explicabo. Sed sunt
+              consequuntur corporis amet maiores excepturi minus odio quas, at
+              itaque, ullam quisquam!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="profile__projects">
+        <h3>My projects</h3>
+        <div class="projects__container">
+          <article class="project__item">
+            <h4>Project 1</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+              incidunt cupiditate nisi voluptas accusamus placeat molestiae
+              aliast.
+            </p>
+          </article>
+          <article class="project__item">
+            <h4>Project 2</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+              incidunt cupiditate nisi voluptas accusamus placeat molestiae
+              aliast.
+            </p>
+          </article>
+          <article class="project__item">
+            <h4>Project 3</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+              incidunt cupiditate nisi voluptas accusamus placeat molestiae
+              aliast.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p><span> &copy;</span> <span id="date-now"></span> J.Ernesto</p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
